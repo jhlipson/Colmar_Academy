@@ -478,9 +478,116 @@ footer {
 }
 
  
- 
- 
- 
+@media screen and (max-width: 430px) and (min-device-width: 320px) {
+    * {
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    header {
+      height: 56px;
+      position: static;
+      z-index: 1000;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .left {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+  
+    nav img {
+      padding-left: 16px;
+      margin-top: 12px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      margin-right: 16px;
+      margin-top: 12px;
+    }
+  
+    #banner img {
+      width: 100%;
+      margin: 16px;
+    }
+  
+    .banner_content h1,
+    .banner_content h2 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 18px;
+    }
+  
+    .practice {
+      flex-direction: column;
+      padding: 16px;
+    }
+  
+    .practice_container,
+    #mini_banner {
+      width: 100%;
+    }
+  
+    #orientation,
+    #campus,
+    #speakers {
+      flex-direction: column;
+    }
+  
+    #orientation img,
+    #campus img,
+    #speakers img {
+      width: 100%;
+      margin: 0;
+    }
+  
+    .Start_Learning {
+      padding: 16px;
+    }
+  
+    .Learning_blocks {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #Software_engineering,
+    #Computer_Art,
+    #Design,
+    #Data,
+    #Business,
+    #Marketing {
+      width: 90%;
+      margin: 16px 0;
+    }
+  
+    .Thesis_content_wrapper {
+      flex-direction: column;
+    }
+  
+    .Thesis_content,
+    .Exhibit {
+      width: 100%;
+    }
+  
+    footer {
+      flex-direction: column;
+      margin: 16px;
+    }
+  }
+  
+
  
  
 
